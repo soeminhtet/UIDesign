@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueFrom="0f"
+    android:valueTo="1f"
+    android:duration="1000"
+    android:valueType="floatType"
+    android:interpolator="@android:interpolator/overshoot" />
