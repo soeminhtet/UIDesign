@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:text="161.42"
             android:fontFamily="@font/sans_semi_condensed_bold"
-            android:textSize="20dp"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/textView11"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/textView11" />

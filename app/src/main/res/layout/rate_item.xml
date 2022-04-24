@@ -169,7 +169,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_bold"
                 android:text="161.42"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="@+id/textView20"
                 app:layout_constraintEnd_toEndOf="@+id/divider2"
                 app:layout_constraintTop_toTopOf="@+id/textView19" />

@@ -5,7 +5,6 @@ import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.content.res.Configuration
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,10 +18,7 @@ import com.codigo.uidesign.adapter.RateAdapter
 import com.codigo.uidesign.adapter.RoomAdapter
 import com.codigo.uidesign.carousel.CarouselAdapter
 import com.codigo.uidesign.databinding.FragmentHomeBinding
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
-import kotlinx.coroutines.withContext
 
 class HomeFragment : Fragment(), View.OnClickListener {
 
