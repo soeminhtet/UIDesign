@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">UIDesign</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="workout">workout</string>
+    <string name="theme">theme</string>
+    <string name="fnb">fnb</string>
+    <string name="kid_family">kid_family</string>
+    <string name="wellness">wellness</string>
+    <string name="currency">currency</string>
+    <string name="question">question</string>
+    <string name="title">Furama Riverfront,\nSingapore</string>
+    <string name="street_name">405 Havelock Road, Singapore 169633</string>
+    <string name="forward">forward</string>
+    <string name="location">location</string>
+    <string name="amenities">Amenities</string>
+    <string name="facilities">Facilities</string>
+    <string name="f_amp_b"><![CDATA[F&B]]></string>
+    <string name="kids_family">Kids/Family</string>
+    <string name="wellness_txt">Wellness</string>
+    <string name="by_room">By Room</string>
+    <string name="by_rates">By Rates</string>
 </resources>

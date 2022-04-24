@@ -28,7 +28,8 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/info_one"
                 app:layout_constraintTop_toTopOf="@+id/info_one"
-                app:srcCompat="@drawable/workout" />
+                app:srcCompat="@drawable/workout"
+                android:contentDescription="@string/workout"/>
 
             <ImageView
                 android:id="@+id/imageView"
@@ -37,7 +38,8 @@
                 android:layout_marginEnd="12dp"
                 android:src="@drawable/currency"
                 app:layout_constraintEnd_toStartOf="@+id/imageView2"
-                app:layout_constraintTop_toTopOf="@+id/imageView2" />
+                app:layout_constraintTop_toTopOf="@+id/imageView2"
+                android:contentDescription="@string/currency"/>
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -46,7 +48,8 @@
                 android:layout_marginTop="8dp"
                 android:src="@drawable/chatactive"
                 app:layout_constraintEnd_toStartOf="@+id/guidelineTwo"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/question"/>
 
             <androidx.constraintlayout.widget.Guideline
                 android:id="@+id/guidelineOne"
@@ -69,7 +72,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/sans_semi_condensed_bold"
-                android:text="Furama Riverfront,\nSingapore"
+                android:text="@string/title"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toStartOf="@+id/imageView3"
@@ -82,7 +85,8 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/nextred"
                 app:layout_constraintEnd_toStartOf="@+id/guidelineTwo"
-                app:layout_constraintTop_toTopOf="@+id/textView" />
+                app:layout_constraintTop_toTopOf="@+id/textView"
+                android:contentDescription="@string/forward"/>
 
             <TextView
                 android:id="@+id/textView2"
@@ -91,7 +95,7 @@
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/sans_semi_condensed_medium"
-                android:text="405 Havelock Road, Singapore 169633"
+                android:text="@string/street_name"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toStartOf="@+id/imageView4"
                 app:layout_constraintStart_toStartOf="@+id/guidelineOne"
@@ -103,7 +107,8 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/currentlocation"
                 app:layout_constraintBottom_toBottomOf="@+id/textView2"
-                app:layout_constraintEnd_toStartOf="@+id/guidelineTwo" />
+                app:layout_constraintEnd_toStartOf="@+id/guidelineTwo"
+                android:contentDescription="@string/location"/>
 
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/carouselViewPager"
@@ -132,7 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_medium"
-                android:text="See All 1/3"
+                tools:text="See All 1/3"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="@+id/view"
                 app:layout_constraintEnd_toStartOf="@+id/guidelineTwo"
@@ -148,7 +153,8 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view"
-                app:srcCompat="@drawable/theme" />
+                app:srcCompat="@drawable/theme"
+                android:contentDescription="@string/theme"/>
 
             <ImageView
                 android:id="@+id/info_three"
@@ -159,7 +165,8 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/info_two"
                 app:layout_constraintTop_toTopOf="@+id/info_two"
-                app:srcCompat="@drawable/fnb" />
+                app:srcCompat="@drawable/fnb"
+                android:contentDescription="@string/fnb"/>
 
             <ImageView
                 android:id="@+id/info_four"
@@ -170,7 +177,8 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/info_three"
                 app:layout_constraintTop_toTopOf="@+id/info_three"
-                app:srcCompat="@drawable/kidsfamily" />
+                app:srcCompat="@drawable/kidsfamily"
+                android:contentDescription="@string/kid_family"/>
 
             <ImageView
                 android:id="@+id/info_five"
@@ -181,14 +189,15 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/info_four"
                 app:layout_constraintTop_toTopOf="@+id/info_four"
-                app:srcCompat="@drawable/wellness" />
+                app:srcCompat="@drawable/wellness"
+                android:contentDescription="@string/wellness"/>
 
             <TextView
                 android:id="@+id/info_one_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_medium"
-                android:text="Amenities"
+                android:text="@string/amenities"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="@+id/info_one"
                 app:layout_constraintStart_toStartOf="@+id/info_one"
@@ -199,7 +208,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_medium"
-                android:text="Facilities"
+                android:text="@string/facilities"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="@+id/info_two"
                 app:layout_constraintStart_toStartOf="@+id/info_two"
@@ -210,7 +219,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_medium"
-                android:text="F&amp;B"
+                android:text="@string/f_amp_b"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="@+id/info_three"
                 app:layout_constraintStart_toStartOf="@+id/info_three"
@@ -221,7 +230,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_medium"
-                android:text="Kids/Family"
+                android:text="@string/kids_family"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="@+id/info_four"
                 app:layout_constraintStart_toStartOf="@+id/info_four"
@@ -232,7 +241,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_medium"
-                android:text="Wellness"
+                android:text="@string/wellness_txt"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="@+id/info_five"
                 app:layout_constraintStart_toStartOf="@+id/info_five"
@@ -297,7 +306,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_bold"
-                android:text="By Room"
+                android:text="@string/by_room"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="@+id/roomBtn"
                 app:layout_constraintEnd_toEndOf="@+id/roomBtn"
@@ -309,7 +318,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/sans_semi_condensed_bold"
-                android:text="By Rates"
+                android:text="@string/by_rates"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="@+id/rateBtn"
                 app:layout_constraintEnd_toStartOf="@+id/guidelineTwo"
